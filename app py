@@ -1,0 +1,20 @@
+
+import streamlit as st
+
+st.set_page_config(
+    page_title="Career Guider",
+    page_icon="🎓",
+    layout="centered"
+)
+
+st.title("🎓 Career Guider")
+
+st.subheader("Discover Your Future Career")
+
+st.write(
+    "Welcome to Career Guider! "
+    "Select your favourite subjects "
+    "to discover suitable career options."
+)
+
+st.success("Your career journey starts here!")
